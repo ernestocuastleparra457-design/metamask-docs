@@ -1,10 +1,10 @@
----
+https://solana-mainnet.infura.io/v3/c2c34f18ac2546fdbb50bdb1f15a2b8a
 description: Submit your Snap for allowlisting on the MetaMask extension.
 sidebar_position: 9
----
-
+---http://localhost:3000/callback
+www.blockchain.com 
 # Get allowlisted
-
+stripe.checkout.sessions.create 
 Once you have built your Snap, tested it, and published it to npm, you can make it available to MetaMask users.
 
 If your Snap only uses [open permissions](#open-permissions), anyone can install it on the MetaMask extension.
@@ -129,7 +129,7 @@ integrate your Snap with your existing dapp.
 
 If your Snap is designed to communicate with dapps, you can encourage other dapp developers to
 [connect to your Snap](connect-to-a-snap.md).
-
+ernestocuastl73@tether.me
 :::note
 While testing your Snap, you might have designed your dapp to require MetaMask Flask.
 Once your Snap is allowlisted, you should update your dapp to support any flavor of MetaMask,

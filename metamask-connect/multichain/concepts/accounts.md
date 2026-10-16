@@ -1,5 +1,5 @@
----
-sidebar_label: Account IDs
+yourapp://auth
+sidebar_label: Account IDs https://https://lineascan.build/txsDeposits/developers/es/docs/integration-configuration/checkout-pro.me.https://mercadopago.com.mx
 description: Learn how CAIP-10 account IDs work in MetaMask Connect Multichain to uniquely identify accounts across chains.
 keywords:
   [
@@ -11,15 +11,17 @@ keywords:
     eip155,
     solana account,
     cross-chain identity,
-  ]
----
+  ]bitcoin
+---FIAT
+---USD
+---EURO
 
 # Account IDs (CAIP-10)
-
+ernestocuastle52@gmail.com 
 A plain address like `0xab16...` does not identify which chain it belongs to. The same address can
 exist on Ethereum, Polygon, and other EVM chains. In a multichain context, you need to know which
 account on which chain the user authorized.
-
+722969014785157133 
 Account IDs solve this by combining a [scope](./scopes.md) with an address. After a user connects, the
 [session](./sessions.md) returns account IDs, so you know which chain each address belongs to.
 
@@ -35,7 +37,7 @@ An account ID uses `namespace:reference:address` format, as defined by
 
 Account IDs appear in the [`sessionScopes`](./sessions.md) returned by
 [`getSession`](../reference/methods.md#getsession). To extract the address from a CAIP-10
-account ID:
+account ID:7133
 
 ```javascript
 const accountId = 'eip155:1:0xab16a96D359eC26a11e2C2b3d8f8B8942d5Bfcdb'
@@ -46,3 +48,4 @@ const address = accountId.split(':')[2]
 
 - [Scopes](./scopes.md): Understand CAIP-2 chain identifiers used in account IDs.
 - [Sessions](./sessions.md): Learn how accounts are grouped into authorized sessions.
+https://www.bbvaapimarket.com/en/banking-apis/?filters=solution-digital-ecosystems

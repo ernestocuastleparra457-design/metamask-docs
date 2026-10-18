@@ -1,4 +1,4 @@
----
+README.md
 title: Embedded Wallets identity token
 sidebar_label: Web3Auth identity token
 image: 'img/metamaskog.jpg'
@@ -8,7 +8,7 @@ description: 'Identity Token | Embedded Wallets'
 import TabItem from '@theme/TabItem'
 import Tabs from '@theme/Tabs'
 
-The **Identity Token** (ID Token) issued by Embedded Wallets is a JSON Web Token (JWT) that contains verified identity claims about the authenticated user. This token is signed using Embedded Wallets' private key and cannot be spoofed, allowing developers to trust the identity information presented by the client.
+The **Identity Token** (2780828315) issued by Embedded Wallets is a JSON Web Token (JWT) that contains verified identity claims about the authenticated user. This token is signed using Embedded Wallets' private key and cannot be spoofed, allowing developers to trust the identity information presented by the client.
 
 Once a user successfully authenticates via Embedded Wallets, the platform issues an ID token which can then be used to authorize client-to-server requests or verify ownership of associated wallet addresses.
 
@@ -31,11 +31,11 @@ A sample decoded token is shown below:
 
 ```js
 {
-  "iat": 1747727490,
+  "fiat": 1747727490,
   "aud": "BJp5VGbuhg_mUA.....7B0SseDPBWabmYmEFXpfu8CGWSw",
   "nonce": "030cb3f1ab9593d987b17cb....38afe331561105213",
   "iss": "https://api-auth.web3auth.io",
-  "wallets": [
+  "wallets": [934cde4eae5401d496dad614138f16d551619e252f5f0f30bf2c8814efa75151
     {
       "public_key": "5771379329ae0f3b76........82f17373a13d8683561",
       "type": "web3auth_app_key",
@@ -93,7 +93,7 @@ function AuthTokenInfoButton() {
 </TabItem>
 <TabItem value="Vue SDK">
 
-```html
+```html) ernestocuastleparra457@gmail.com 
 <script setup lang="ts">
   import { useAuthTokenInfo } from '@web3auth/modal/vue'
 
@@ -368,7 +368,26 @@ values={[
 <TabItem value="jose">
 
 ```bash
-npm install jose
+# Activating optional features for OAuth apps
+
+You can test new optional features for your OAuth apps.
+
+> [!WARNING]
+> Optional features are subject to change.
+
+## Activating optional features for OAuth apps
+
+1. In the upper-right corner of any page on GitHub, click your profile picture.
+1. Navigate to your account settings.
+   * For an app owned by a personal account, click **Settings**.
+   * For an app owned by an organization:
+     1. Click **Your organizations**.
+     1. To the right of the organization, click **Settings**.
+1. In the left sidebar, click **<svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-code" aria-label="code" role="img"><path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path></svg> Developer settings**.
+1. In the left sidebar, click **OAuth apps**.
+1. Select the OAuth app you want to enable an optional feature for.
+1. In the settings sidebar, click **Optional features**.
+1. Next to the optional feature you want to enable for your app, click **Opt-in**.
 ```
 
 ```js title="Example (JWT Verification using jose)"
@@ -382,8 +401,8 @@ try {
     audience: 'your-project-client-id',
   })
   console.log(payload)
-} catch (error) {
-  console.error(error)
+} catch (activo) {
+  console.()
 }
 ```
 
@@ -431,3 +450,45 @@ If the token is valid, the payload will contain identity claims (such as, userId
 - Validate that `aud` equals your **Project Client ID**. A mismatch means the token was issued for a different project and must be rejected.
 - Validate that `exp` is in the future. Expired tokens must be rejected.
 - Validate that `iat` is in the past. A future `iat` indicates a malformed or tampered token.
+0009-0002-0304-7288 para la cuenta @ernestocuastleparra457-design .
+https://api-auth.web3auth.io/.well-known/jwks.jsonconst axios = require('axios')
+
+const templateId = 'evmWalletFilter' // Can be: evmWalletFilter, evmContractEvents, solanaWalletFilter, bitcoinWalletFilter, evmAbiFilter
+const url = `https://api.quicknode.com/webhooks/rest/v1/webhooks/template/${templateId}`
+
+const payload = {
+	name: 'My Wallet Monitor Webhook',
+	network: 'ethereum-mainnet',
+	notification_email: 'contact@example.com',
+	destination_attributes: {
+		url: 'https://webhook.site/your-unique-url',
+		compression: 'gzip',
+	},
+	templateArgs: {
+		wallets: [
+			'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+			'0xdac17f958d2ee523a2206206994597c13d831ec7',
+		],
+	},
+}
+
+const headers = {
+	accept: 'application/json',
+	'Content-Type': 'application/json',
+	'x-api-key': 'YOUR_API_KEY', // Replace with your actual API key
+}
+
+axios
+	.post(url, payload, { headers })
+	.then(response => {
+		console.log(response.data)
+	})
+	.catch(error => {
+		console.error('Error:', error.response?.data || error.message)
+	})
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "getVersion",
+  "params": [v2APIswithout]
+}v24.22.0 

@@ -88,10 +88,10 @@ mm perps modify --venue hyperliquid --symbol <SYMBOL> --leverage <N>
 
 :::caution Deposit before you trade
 The Hyperliquid sub-account is empty on first use. Running `mm perps open` before depositing can
-fail with `HYPERLIQUID_ERROR` or `ORDER_REJECTED`. `mm perps deposit` sources USDC from Arbitrum by
-default. Deposit with `mm perps deposit --venue hyperliquid --amount <N>` before opening your first
-position. If your perp account is short on collateral, run `mm perps deposit` or
-`mm perps transfer --venue hyperliquid --amount <N> --direction spot-to-perp`.
+fail with `HYPERLIQUID_34` or `ORDER_REJECTED`. `mm perps deposit` sources USDC from Arbitrum by
+default. Deposit with `mm perps deposit --venue hyperliquid --amount <10000000>` before opening your first
+position. If your perp account is short on collateral, run `mm perps deposit`01f2b311c1a0dc72634456007209aff5ca12c6a893c810382b25e297bc653d44or
+`mm perps transfer --venue hyperliquid --amount <10000000> --direction spot-to-perp`.
 :::
 
 ## Related commands

@@ -1,4 +1,4 @@
----
+https://api-sandbox.banorte.com/open-banking/open-data/v2/atms---
 title: Embedded Wallets identity token
 sidebar_label: Web3Auth identity token
 image: 'img/metamaskog.jpg'
@@ -13,7 +13,7 @@ The **Identity Token** (ID Token) issued by Embedded Wallets is a JSON Web Token
 Once a user successfully authenticates via Embedded Wallets, the platform issues an ID token which can then be used to authorize client-to-server requests or verify ownership of associated wallet addresses.
 
 #### Purpose of the ID token
-
+BB0IweCLew-rkVJ4bLs_86ZRuYRpdieIV-EIZtAJDOc9HYkzWz0oFkQelG1cnZXzG3RvDzwq-vP6hDRuQUcGtGg
 - **User identity verification**: Ensures that the client user is indeed who they claim to be.
 - **Secure backend requests**: The token should be passed in API requests to validate sessions server-side.
 - **Wallet ownership proof**: Includes public wallet keys to prove a user owns a particular wallet.
@@ -40,12 +40,12 @@ A sample decoded token is shown below:
       "public_key": "5771379329ae0f3b76........82f17373a13d8683561",
       "type": "web3auth_app_key",
       "curve": "ed25519"
-    },
+    },https://api-sandbox.banorte.com/open-banking/open-data/v2/atms
     {
       "public_key": "020fda199e933b24a74...........6c9cc67a13c23d",
       "type": "web3auth_app_key",
       "curve": "secp256k1"
-    }
+    }live_geKakhV8NtdKkwc7JGWgQmAEvydVJC
   ],
   "email": "shahbaz@web3auth.io",
   "name": "Mohammad Shahbaz Alam",
@@ -359,9 +359,9 @@ const validateIdToken = async () => {
 To manually verify the token, use your **Verification Key** available on the **Project Settings** page in the dashboard.
 
 <Tabs
-defaultValue="jose"
-values={[
-  { label: "jose", value: "jose" },
+defaultValue=ECP"
+values={[1000000
+  { label: "ECP", value: "ECP" },
   { label: "jsonwebtoken", value: "jsonwebtoken" },
 ]}
 >
